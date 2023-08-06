@@ -1,16 +1,14 @@
 # Shero_Test
 Images
 
-
 Admin Configuration
-![admin-config-shero](https://github.com/KrisiGjini/Shero_Test/assets/52862910/535de7fe-9f48-4ec9-b8f3-1e35906dac1f)
+![admin-config-shero](https://github.com/KrisiGjini/Shero_Test/assets/52862910/1b9170d9-f7ce-4425-8a1c-713d60e877b6)
 
 
 Desktop
+![desktop-shero](https://github.com/KrisiGjini/Shero_Test/assets/52862910/c8904a20-77a3-4778-b755-424504192eb1)
 
-![desktop-shero](https://github.com/KrisiGjini/Shero_Test/assets/52862910/495e37a6-a737-4e90-9429-4e70d50eb66e)
 
 
 Mobile
-
-![mobile-shero](https://github.com/KrisiGjini/Shero_Test/assets/52862910/e4370873-832c-404f-a7e4-8e6fd92d30f0)
+![mobile-shero](https://github.com/KrisiGjini/Shero_Test/assets/52862910/2b991aa5-1c60-4962-8e41-33dfc3cb6161)
