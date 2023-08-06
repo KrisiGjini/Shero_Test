@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="shero" translate="label" sortOrder="110">
+            <label>Shero Settings</label>
+        </tab>
+        <section id="shero_settings" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Featured Products</label>
+            <tab>shero</tab>
+            <resource>SheroCommerce_FeaturedProducts::acl_path</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General</label>
+                <field id="skus" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Product SKUs</label>
+                    <comment>Enter SKUs of products separated by commas</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

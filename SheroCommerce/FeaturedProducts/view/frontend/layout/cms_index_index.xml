@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block name="sh.product.list" template="SheroCommerce_FeaturedProducts::product_list.phtml" before="-">
+                <arguments>
+                    <argument name="list" xsi:type="object">SheroCommerce\FeaturedProducts\ViewModel\ProductList</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

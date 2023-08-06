@@ -1,0 +1,29 @@
+<?php
+declare(strict_types=1);
+
+/** @var $block Template */
+/** @var $view ProductList*/
+
+use Magento\Framework\View\Element\Template;
+use SheroCommerce\FeaturedProducts\ViewModel\ProductList;
+
+$viewModel = $block->getData('list');
+$featuredProducts = $viewModel->getFeaturedProducts();
+?>
+<?php if (!empty($featuredProducts)): ?>
+<div class="featured-products">
+        <?php foreach ($featuredProducts as $product): ?>
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="<?= $viewModel->getProductImageUrl($product) ?>" alt="<?= $product->getName(); ?>" />
+                </div>
+                <div class="product-info">
+                    <h2 class="product-name"><?= $product->getName(); ?></h2>
+                    <div class="product-price"><?= $viewModel->getFormattedPrice($product->getPrice()) ?></div>
+                    <div class="product-description"><?= $product->getDescription(); ?></div>
+                    <a href="<?= $viewModel->getProductUrl($product); ?>" class="view-product">View Product</a>
+                </div>
+            </div>
+        <?php endforeach; ?>
+</div>
+<?php endif; ?>
